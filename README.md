@@ -1,3 +1,6 @@
+LRU User Interface
+![Snapshot](https://github.com/suhas-24/lru-cache-project/blob/main/frontend/src/LRU_UI.png)
+
 ## Setup Instructions
 
 ### Backend
