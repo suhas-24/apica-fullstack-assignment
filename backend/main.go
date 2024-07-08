@@ -17,7 +17,7 @@ import (
 
 func main() {
 	// Create a new LRU cache with capacity 100 and max memory 10MB
-	lruCache := cache.NewLRUCache(100, 10*1024*1024)
+	lruCache := cache.NewLRUCache(5, 2*1024*1024)
 	handler := api.NewHandler(lruCache)
 
 	r := mux.NewRouter()
